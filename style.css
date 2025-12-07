@@ -63,7 +63,7 @@ body{
 /*___________________Introduction__________________*/
 
 .intro{
-    margin-top: 50px;
+    margin-top: 5rem;
     width:100%;
     height: 40rem;
     
@@ -79,25 +79,36 @@ body{
 }
 
 .introduction-left{
-    width: 70%;
-    flex:1;
-    margin-left: 5rem;
-   
+    width: 60%;
+    margin: 0 5rem;
+    display: flex;
+    
 }
 
 .introduction-left h1{
     font-size: 3rem;
 }
 
+.introduction-content h1{
+    margin-bottom: 1rem;
+}
 .introduction-right{
-    width: 30%;
+    width: 40%;
     display:flex;
     justify-content: flex-end;
-    margin: 2rem 2rem;
-
-    flex:1;
+    margin: 0 2rem;
     
- 
+}
+
+.headshot{
+    width: 100%;
+}
+
+.headshot img{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 300px;
+    
 }
 /*___________________About_Me__________________*/
 .about-me{
