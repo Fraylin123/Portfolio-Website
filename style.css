@@ -153,15 +153,10 @@ body{
     margin-top: 3rem;
     width:100%;
     display:flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    /*border: 1px solid red; */
   
 }
-
-.about-me:first-child{
-    margin-right:auto;
-}
-
-
 
 .boxesContainer {
     width: 20rem;
@@ -170,8 +165,8 @@ body{
     max-height:800px;
     aspect-ratio: 1 / 1;
     position:relative;
-    
-   
+    margin-left: 120px;
+    margin-top: 30px;
 }
 
 .box {
@@ -206,20 +201,43 @@ img{
 
 }
 
-.description{
-    width:50%;
-    margin-top: 3rem;
-    text-align:center;
-   
+.description span{
+    font-size: 22px;
 }
-
-.description-paragraph{
-    margin-top: 1rem;
-    text-align:left;
+.description{
+    width:45%;
+    
+    margin-left: 8rem;
     
 }
+.description p{
+    margin-top:2rem;
+    font-size: 18px;
+    text-align:left;
+}
+
+/*Skills section*/
 
 
+.skills{
+    margin-top: 3rem;
+}
+
+.skills h2{
+    text-align: center;
+    margin: 7rem auto 5rem auto;
+}
+
+.skills h2::after{
+    content:"";
+    text-align:center;
+    display:block;
+    width:60px;
+    height:3px;
+    background-color:white;
+    margin:0.4rem auto 0 auto;
+    border-radius:2px;
+}
 /*Projects section*/
 
 .projects{
@@ -229,6 +247,23 @@ img{
     align-items:center;
 }
 
+.projects h2{
+    text-align:center;
+    margin: 7rem auto 5rem auto;
+
+}
+
+.projects h2::after{
+    content:"";
+    text-align:center;
+    display:block;
+    width:60px;
+    height:3px;
+    background-color:white;
+    margin:0.4rem auto 0 auto;
+    border-radius:2px;
+
+}
 .projects h1{
     text-align: center;
     margin-top: 5rem;
