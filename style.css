@@ -238,6 +238,50 @@ img{
     margin:0.4rem auto 0 auto;
     border-radius:2px;
 }
+
+.skill-container{
+    border: 1px gray solid;
+    width: 25%;
+    height: 30rem;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Left column */
+.languages {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width: 60%;
+    background: #e3f0ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Right column container */
+.right-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+
+.frameworks, .tools {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+.skills-pair span{
+    color:black;
+    text-align: center;
+}
+.skill-pair img{
+    width: 80px;
+    height:80px;
+}
 /*Projects section*/
 
 .projects{
