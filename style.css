@@ -238,8 +238,8 @@ img{
 .skills-container {
     display: flex;
     justify-content: center;
-    border: 2px solid red;
-    gap: 20px;
+    gap: 30px;
+    
 }
 
 /* Left column */
@@ -257,13 +257,12 @@ img{
 }
 
 .languages-section h3{
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 /* Right column container */
 .right-column {
     display: flex;
     flex-direction: column;
-    flex: 1;
     gap: 20px;
 }
 
@@ -295,16 +294,16 @@ img{
 /*Projects section*/
 
 .projects{
-    margin-top: 3rem;
+    margin-top:3rem;
     display:flex;
     flex-direction:column;
     align-items:center;
 }
 
+
 .projects h2{
     text-align:center;
     margin: 7rem auto 5rem auto;
-
 }
 
 .projects h2::after{
@@ -329,6 +328,8 @@ img{
 }
 
 .project{
+    display:flex;
+    flex-direction:row;
     width:90%;
     height:20rem;
     margin: 1rem;
