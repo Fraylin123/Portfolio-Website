@@ -340,7 +340,6 @@ img{
 }
 
 .project-right h3 {
-  
     margin-bottom: 16px;
 }
 
@@ -371,7 +370,6 @@ footer {
     color: black;
     gap: 10px;
     background-color: #E9E9E9;
-
 }
 
 footer .logos {
@@ -380,7 +378,6 @@ footer .logos {
     justify-content: center;
     align-items: center;
     gap: 20px;
-  
 }
 
 footer .logos img {
