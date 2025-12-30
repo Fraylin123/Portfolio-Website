@@ -44,7 +44,7 @@
                         accessible,
                         scalable web applications.
                     </p>
-                    <button>Download Resume</button>
+                    <a href="Resume.pdf" download="Fraylin's Resume"><button>Download Resume</button></a>
                 </div>
 
             </div>
@@ -271,6 +271,13 @@
 
     <section class="contact-me">
         <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xregwkew" method="POST">
+            <input type="text" name="name" placeholder="Name" autocomplete="off" required>
+            <input type="email" name="email" placeholder="Email address" autocomplete="off" required>
+            <textarea rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required></textarea>
+            <button type="submit">Send Message</button>
+        
+        </form>
 
     </section>
 
