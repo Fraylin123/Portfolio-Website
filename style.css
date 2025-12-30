@@ -204,13 +204,13 @@ img{
 }
 .description{
     width:45%;
-    
     margin-left: 8rem;
     
 }
 .description p{
     margin-top:2rem;
-    font-size: 18px;
+    line-height: 32px;
+    font-size: 20px;
     text-align:left;
 }
 
@@ -444,6 +444,7 @@ footer {
     align-items: center;
     color: black;
     gap: 10px;
+    padding: 5px;
     background-color: #E9E9E9;
 }
 
@@ -453,6 +454,7 @@ footer .logos {
     justify-content: center;
     align-items: center;
     gap: 20px;
+   
 }
 
 footer .logos img {
