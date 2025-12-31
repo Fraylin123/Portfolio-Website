@@ -47,22 +47,7 @@ body{
     font-size: 2rem;
 }
 
-.btn{
-    font-family: Montserrat, sans-serif;
-    color:white;
-    font-size: 1rem;
-    background: none;
-    border:none;
-    outline:none;
-    border-radius: 0.2rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 200ms ease-in;
-}
 
-.btn:hover{
-    color: gray;
-}
 /*___________________Introduction__________________*/
 
 .intro{
@@ -179,7 +164,6 @@ body{
 }
 
 .profile-picture {
-  background-color: #e74c3c;
   top: -5%;
   left: -5%;
   width: 100%;
@@ -193,7 +177,7 @@ body{
     border: 1px solid black;
 }
 
-img{
+.profile-picture img{
     width:100%;
     height:100%;
     border-radius: 0.3em;
